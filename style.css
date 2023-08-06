@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0;0,400;0,900;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: black;
+    background: linear-gradient(#F8F8FF, white);
+    max-width: 800px;
+    margin: auto;
+}
+
+.container {
+    max-width: 750px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+/* header {
+    border: 1px solid black;
+    margin-bottom: 25px;
+} */
+
+.photo {
+    border-radius: 20px;
+    width: 200px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+}
+
+.info-name {
+    padding: 15px 10px;
+    margin: 0;
+}
+
+.info-name p {
+    font-style: italic;
+    color: lightgrey;
+    margin: 0;
+}
+
+.info-name h1 {
+    margin-bottom: 5px;
+}
+
+.info-links {
+    padding-bottom: 25px;
+    border-bottom: 1px solid grey
+}
+
+.info-links h2 {
+    margin-bottom: 5px;
+}
+
+table {
+    width: 75%;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid grey;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 35px;
+    margin-bottom: 25px;
+}
+
+.bg-lavender {
+    background: lavender;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF8C00;
+}
+
+footer {
+    /* margin: auto; */
+    text-align: center;
+    color: lightgrey;
+    margin: 50px;
+}
